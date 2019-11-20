@@ -4,8 +4,8 @@
 \usepackage[square,numbers]{natbib}
 \usepackage[nottoc,numbib]{tocbibind}
 
-\title{My Awesome TechReport}
-\author{Philip Johnson \\Collaborative Software Development Laboratory \\ Information and Computer Sciences \\ University of Hawaii}
+\title{An Ethnographic User Experience Evaluation of RadGrad}
+\author{Quinne Uchida \\Collaborative Software Development Laboratory \\ Information and Computer Sciences \\ University of Hawaii}
 
 \begin{document}
 \maketitle
@@ -15,9 +15,9 @@
 \section{Introduction}
 \label{introduction}
 
-The introduction section typically begins with a description of a {\em Big Problem}.  For example, ``Computer science has a problem with diversity.  The percentage of women in computer science has actually dropped by almost half since the 1980's'' \cite{camp_generation_2017}.  A Big Problem is typically a problem that is way too big for your research project to actually solve by itself. The description of the big problem is typically a few paragraphs to a page in length, and should have some citations to research establishing the Big Problem as a big problem.
+The introduction section typically begins with a description of a {\em Big Problem}. The demand for Computer Science jobs is growing rapidly and so is the demand for Computer Science degrees. However, employers are looking for individuals who have been educated in Computer Science, along with experience doing internships, extracurricular activities and other projects. The traditional perception of qualifications for obtaining a job were that one must have a high GPA. RadGrad is designed to address this problem. 
 
-The next part of the introduction section presents the {\em Small Problem}--- the problem that you are actually going to attempt to address in your research project, and how it relates to the Big Problem.  For example, ``In order to understand how to increase representation of women in computer science, we must first begin to understand why women might start a computer science degree program but not finish it. In this research project, I will investigate what students believe to be barriers to completing a computer science degree, and whether or not women perceive these barriers differently.''  The description of your Small Problem should also be a few paragraphs to a page in length.
+The next part of the introduction section presents the {\em Small Problem}--- Low system adoption of RadGrad. We define low system adoption as 1-2 sessions per semester. We define the desired level of system adoption 5 or more sessions per semester.
 
 The final part of the introduction section describes how the rest of this document is organized, which should also lead the reader through your research process.  For example, ``Section \ref{related-work} discusses research related to gender in STEM disciplines including computer science.  Section \ref{research-design} presents the research process I will use in order to gather data related to barriers to completion of a computer science degree program.  Section \ref{results} presents the data I will collect and how I will analyze it.  Section \ref{conclusions} presents my conclusions and proposals for future research.''
 
@@ -36,13 +36,14 @@ The Related Work section presents research and/or technology that you are using 
 \section{Research Design}
 \label{research-design}
 
-This section describes how you intend to go about addressing your Small Problem.  If you need to implement some technology, you can provide a specification (perhaps with mockup screens) for what you are going to implement. If you are going to do a survey or collect data in some way, you should describe what data you are going to collect.
+We would like to improve the student participation in RadGrad, and by conducting an ethnographic study we may be able to identify and examine barriers of adoption for RadGrad. The main question I will be attempting to answer is: "Why do/don't students use RadGrad?"
 
-If you are doing a survey, then this section should include the {\em instruments}:  for example, what questions, specifically, do you intend to ask?
+In this study, the ethnographer will attempt to interview a total of 5-10 students. For each student, the ethnographer will interview the student for 15 minutes and record audio of the process. After the interview, the ethnographer will then transcribe and analyze the contents of the interview. 
 
-You want this section to be as detailed as you can possibly make it.  The more detail, the easier it is for your colleagues to critique and find opportunities for improvement.   It's way harder to make changes after you've already done the implementation or conducted the interviews or whatever!
+While the ethnographer must allow the interview to change topics if the participant wishes, the ethnographer must still have a plan. Initially, the interviewer will ask the participant about their opinions on RadGrad. From there, the participant has the freedom to talk about any aspect of RadGrad and not a specific category. Theoretically, the first aspect of RadGrad the participant brings up will be the one deemed most important by that participant. 
 
-Sometimes you might do a {\em pilot study} or {\em spike solution}.  This is a quick and dirty implementation that helps you understand the nature of the problem you are trying to solve.  For example, you might interview a single person, or you might make a mockup implementation or analysis with fake data.  That's fine: include the results of this section.
+{\em Pilot Study}
+Ethnographic studies are rarely done because of the time commitment required to analyze ethnographic data. I propose conducting a pilot study on 2 students. These students will be subject to the proposed structure of this study and will allow the ethnographer to further refine the proposed process. 
 
 Quite often, you will want to add a picture to your tech report. The trick for including figures into LaTeX is to first convert them to encapsulated postscript (.eps) format. I use the convert program, but for Windows, you might ned pdftoops or ghostscript.  Google for lots of ideas on how to do this. All figures in your tech report must be referenced. So for example, Figure \ref{fig:theory} presents a theory of change for the RadGrad project.
 
