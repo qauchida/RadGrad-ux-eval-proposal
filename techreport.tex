@@ -3,7 +3,7 @@
 \usepackage{url}
 \usepackage[square,numbers]{natbib}
 \usepackage[nottoc,numbib]{tocbibind}
-\title{A User Experience Evaluation of RadGrad}
+\title{Why Don't Students Use RadGrad? A Qualitative Study of Factors That Inhibit RadGrad Adoption}
 \author{Quinne Uchida \\Collaborative Software Development Laboratory \\ Information and Computer Sciences \\ University of Hawaii}
 
 \begin{document}
@@ -14,14 +14,13 @@
 \section{Introduction}
 \label{introduction}
 
-The demand for Computer Science jobs is growing rapidly and so is the demand for Computer Science degrees. However, employers are looking for individuals who have been educated in Computer Science, along with experience doing internships, extracurricular activities and other projects. The traditional perception of qualifications for obtaining a job were that one must have a high GPA. RadGrad is designed to address this problem. 
+The demand for Computer Science jobs is growing rapidly and so is the demand for Computer Science degrees. However, employers are looking for individuals who have not only  been educated in Computer Science, but who also have experience doing internships, extracurricular activities and other projects. The traditional perception among students of qualifications for obtaining a job were that one must have a high GPA, but now much more is required to be competitive for high quality graduate programs and industry positions. RadGrad is designed to address this problem. 
 
-However, 65.7143{\%} of active students have low system adoption (see research design for more details) of RadGrad. 
+Unfortunately, despite the intended benefits of RadGrad, student adoption is still relatively low after its first year of deployment. Approximately 65{\%} of students use RadGrad less than two times a semester. 
 
-In order to address the problem of low system adoption, this study aims to answer the question: "Why do/don't students use RadGrad?" by conducting a series of interviews with active students. 
-The students will be split into 3 groups based on their adoption level of high, mid or low (for Fall 2019). The student will not be informed which adoption group they are in. Each student will be interviewed and asked the same questions individually for approximately 20 minutes during which the audio of the researcher and the student will be recorded. During the interview, the researcher will as a series of open ended questions to the student. After all the interviews have been conducted, the audio will be transcribed and then analyzed for key words and phrases.
+In order to address the problem of low system adoption, this study aims to answer the question: ``Why don't students use RadGrad?'' I will investigate this question by conducting a series of interviews with currently enrolled ICS students who use RadGrad once or less per semester. 
 
-It is likely that students with low to mid level adoption levels do not think that RadGrad is worth the time investing into using the system. For those people, they may view RadGrad as a worse version of STAR, the degree planner used by students at UH Manoa. College students have very little spare time or attention to give and are therefore apprehensive about investing time or attention into something they do not deem directly beneficial to them. 
+For example, it is possible that students with low to mid level adoption levels do not think that RadGrad is worth the time investing into using the system. 
 Full time students are required to take 12-18 credits, which, given the recommended time ratio of credit hours and 2-3 hours spent studying, totals to 36-72 hours spent on academics alone. 
 
 This study aims to come up with tangible reasons as to why students are not using RadGrad. RadGrad was launched in Spring 2018, and has been running for approximately 2 years. During the two year period between the launch and the present, the developers have introduced ways to capture usage statistics. By analyzing the captured statistics and conducting a qualitative study, this research aims to provide insight as to why students do not use RadGrad. These observations, in turn, could aid the software development process. 
@@ -29,41 +28,59 @@ This study aims to come up with tangible reasons as to why students are not usin
 \section{Related Work}
 \label{related-work}
 
-In the summer of 2019, a survey on student use of RadGrad was conducted. 
+In the summer of 2019, a survey on student use of RadGrad was conducted on 15 students. The survey contained 9 questions with 4 closed ended questions and 5 open ended questions.  
+The results of that survey were compiled into a conference paper for SIGCSE (Special Interest Group for Computer Science Education) 2020.
+
+{\em Comment: I would like to see the SIGCSE submission will the author's analysis of the data. The most recent version I have access to is one posted on Slack on June 26th, 2019.}
 \section{Research Design}
 \label{research-design}
 
-We would like to improve the student participation in RadGrad, and by conducting this study we may be able to identify and examine barriers of adoption for RadGrad. The main research question I will be attempting to answer is: "Why do/don't students use RadGrad?"
+We would like to improve the student participation in RadGrad, and by conducting this study we may be able to identify and examine barriers of adoption for RadGrad. The main research question I will be attempting to answer is: ``Why don't students use RadGrad?''
 
 We define low system adoption as 0-1 sessions per semester. We define a moderate level of adoption as 2-3 sessions per semester.  We define a high level of system adoption as 4 or more sessions per semester. 
-{\em Sessions} are classified as periods of activity deliminated by 1 hour of inactivity. Having an hour of idle time creates a new session. The purpose of defining levels of adoption by number of sessions is because a user's number of login events may not accurately reflect activity of the system. 
+{\em Sessions} are classified as periods of activity delimited by 1 hour of inactivity. Having an hour of idle time creates a new session. The purpose of defining levels of adoption by number of sessions is because a user's number of login events may not accurately reflect activity of the system. 
 
-According to data collected from RadGrad1 for Spring 2019 (2019-01-01 to 2019-05-31), out of 210 active students, 138 students are classified as having low system adoption. 57 students are classified as having moderate system adoption and 15 classify as having high adoption. In terms of percentage, 65.7143{\%} have low adoption, 27.1429{\%} have moderate adoption and 7.1429{\%} have high adoption. These numbers have been calculated from session data for Spring 2019 (2019-01-01 to 2019-05-31) obtained on 2019-11-20 as reported by the RadGrad system. 
+According to data collected from RadGrad for Spring 2019 (2019-01-01 to 2019-05-31), out of 210 active students, 138 students are classified as having low system adoption. 57 students are classified as having moderate system adoption and 15 classify as having high adoption. In terms of percentage, 65.7143{\%} have low adoption, 27.1429{\%} have moderate adoption and 7.1429{\%} have high adoption. These numbers have been calculated from session data for Spring 2019 (2019-01-01 to 2019-05-31) obtained on 2019-11-20 as reported by the RadGrad system. 
 
-The researcher will attempt to choose students with no personal association to the researcher, in order to avoid biasing the student’s answer. Students chosen are required to have a RadGrad account from the Fall of 2019. Ideally, the researcher will 3 groups of 4-5 students. Groups are divided by their level of adoption as defined earlier. 
- 
+In order to address the problem of low system adoption, this study aims to answer the question: ``Why don't students use RadGrad?'' I will investigate this question by conducting a series of interviews with currently enrolled ICS students who use RadGrad once or less per semester. Each student will be interviewed and asked the same questions individually for approximately 20 minutes during which the audio of the researcher and the student will be recorded. During the interview, the researcher will ask a series of open ended questions to the student. After all the interviews have been conducted, the audio will be transcribed and then analyzed for key words and phrases.
+
 The researcher will interview 15-21 students and each student will be interviewed individually in person for a total of 20 minutes. All interview audio will be recorded. 
  
-The interview will be approximately 20 minutes and will consist of a series of open ended questions pertaining to RadGrad, with the focus of figuring out why or why doesn't the student use RadGrad. The exact questions are yet to be determined.  
-\\ 
+Each interview will be approximately 20 minutes and will consist of a series of open ended questions pertaining to RadGrad, with the focus of figuring out why students do not use RadGrad.\\ 
+
+{\em Questions}
+
+\begin{itemize}
+	\item What is your class standing?
+	\item On average, how many times a semester do you use RadGrad?
+	\item How many credits did you take last semester?
+	\item On average, last semester, how many hours a week did you work?	
+	\item What kind of extracurricular activities do you participate in?
+	\item Please describe you level of involvement of those extracurricular activities.
+	\item When you think of career planning, what resources do you use?
+	\item Where would you like to be in 5 years regarding your career?
+	\item In the previous question, you stated where you would like to be in 5 years regarding your career. How do you plan to get to that place?
+	\item What kind of internship opportunities are you interested in?
+	\item Why did you choose to major in Computer Science?
+	\item How often do you use STAR to plan your classes?
+	\item Please describe how useful you find RadGrad.
+	\item What do you think the purpose of RadGrad is?
+	\item How important do you believe GPA is to prospective recruiters?
+	\item Please describe your current work situation and how it relates to ICS.
+	\item How will this experience help you in your future career?
+	\item Have you talked with any mentors about your opportunities in ICS? Were your mentors professors, ICS alumni, academic advisors, friends?
+	\item Was there a piece of advice you'd hear a lot of people give? If so, what is that advice?
+	\item Do you feel that your degree plan has no direction? If so why?
+	\item How often do you question why you are in college?
+
+\end{itemize} 
+ 
+
 {\em Pilot Study}
 
 A pilot study will be conducted with 3-6 students. Ideally, there will be at least one student representing each adoption group. 
 
-Incentives for participation are to be determined.
-
 Each interview's audio will be transcribed to text. The coding analysis process will begin once all of the interviews have been conducted and transcribed. Words will be coded using a hierarchical frame.  
-\\
-
-\section{Results}
-\label{results}
-
-No results as of this time.
-
-\section{Conclusions}
-\label{conclusions}
-
-No conclusion as of this time.
 
 \bibliography{techreport}
 \bibliographystyle{plainnat}
